@@ -12,8 +12,8 @@
 
 ## install
 ```bash
-npm i
-npm install -g expo-cli
+$ npm i
+$ npm install -g expo-cli
 ```
 
 ```json
@@ -27,13 +27,24 @@ npm install -g expo-cli
 ```
 ## run
 ```bash
-npm star
-a
-r
+$ npm star
+$ a
+$ r
 ```
 
 ### build 
-[exop](https://docs.expo.dev/eas-update/migrate-to-eas-update/#install-eas-cli) bulid link
+[exop](https://docs.expo.dev/eas-update/migrate-to-eas-update/#install-eas-cli) build link
 ```bash
-npm install --global eas-cli
+$ npm install --global eas-cli
 ```
+- EAS login(expo 계정 로그인)
+```bash
+$ eas login
+```
+- configure file 생성 & 빌드 환경 설정
+```bash
+$ eas build:configure
+? Would you like to automatically create an EAS project for @ryudg/my-app? >> (y)
+? Which platforms would you like to configure for EAS Build? » (Android)
+```
+
