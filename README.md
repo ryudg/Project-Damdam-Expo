@@ -33,7 +33,7 @@ r
 ```
 
 ### build 
-[exop](https://docs.expo.dev/eas-update/migrate-to-eas-update/#install-eas-cli)
+[exop](https://docs.expo.dev/eas-update/migrate-to-eas-update/#install-eas-cli) bulid link
 ```bash
 npm install --global eas-cli
 ```
