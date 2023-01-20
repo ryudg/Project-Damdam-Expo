@@ -8,6 +8,7 @@
 
 - SDK tools emulator 여부 확인
 - more action > virtual device manager
+- android studio create device
 
 ## install
 ```bash
