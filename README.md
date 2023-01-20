@@ -47,4 +47,60 @@ $ eas build:configure
 ? Would you like to automatically create an EAS project for @ryudg/my-app? >> (y)
 ? Which platforms would you like to configure for EAS Build? » (Android)
 ```
+- Please edit eas.json (for apk)
+```json
+{
+  "cli": {
+    "version": ">= 3.3.2"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
+``` 
+```json
+{
+  "cli": {
+    "version": ">= 3.3.2"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
 
+```
+- Run build
+  - 앱 고유 id
+```bash
+$ eas build --platform android
+? What would you like your Android application id to be? » com.ryudg.myapp
+? Generate a new Android Keystore? » (Y)
+```
+
+- expo 홈페이지 > abb 다운로드 > abb to apk
