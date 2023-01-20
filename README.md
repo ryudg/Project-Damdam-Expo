@@ -6,7 +6,7 @@
   - JAVA_HOME, C:\Program Files\Java\jdk-19
   - PATH, C:\Program Files\Java\jdk-19\bin, C:\Program Files\nodejs\
 
-- SDK tools emulator 여부 확인
+- SDK tools emulator 
 - more action > virtual device manager
 - android studio create device
 
@@ -37,11 +37,11 @@ $ r
 ```bash
 $ npm install --global eas-cli
 ```
-- EAS login(expo 계정 로그인)
+- EAS login(expo account login)
 ```bash
 $ eas login
 ```
-- configure file 생성 & 빌드 환경 설정
+- create configure file  & setting build platforms
 ```bash
 $ eas build:configure
 ? Would you like to automatically create an EAS project for @ryudg/my-app? >> (y)
