@@ -31,3 +31,9 @@ npm star
 a
 r
 ```
+
+### build 
+[exop](https://docs.expo.dev/eas-update/migrate-to-eas-update/#install-eas-cli)
+```bash
+npm install --global eas-cli
+```
