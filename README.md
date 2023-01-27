@@ -1,4 +1,4 @@
-# damdamMoblie
+# EXPO-damdam
 
 - 안드로이드 스튜디오 설치 (경로 한글명x)
 - 환경변수 설정
